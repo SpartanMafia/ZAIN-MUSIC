@@ -6,8 +6,6 @@
 
 import asyncio
 import threading
-
-import uvloop
 from flask import Flask
 from pyrogram import Client, idle
 from pyrogram.enums import ChatMemberStatus
@@ -24,7 +22,6 @@ import config
 
 from ..logging import LOGGER
 
-uvloop.install()
 
 # Flask app initialize
 app = Flask(__name__)
