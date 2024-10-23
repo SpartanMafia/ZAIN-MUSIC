@@ -18,16 +18,16 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "27553649"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "0d6e49a485458e3e22c50dced096da93")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "") 
 
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 
 CLEANMODE_DELETE_MINS = int(
